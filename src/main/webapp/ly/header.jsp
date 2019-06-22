@@ -9,9 +9,9 @@
 <html>
 <head>
     <title>Title</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/slide.js"></script>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/slide.js"></script>
 </head>
 <body>
 <div id="body" style="width: 80%;margin-left: 14%">

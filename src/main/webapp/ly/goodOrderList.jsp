@@ -60,7 +60,7 @@
 <body>
     <div class="all">
         <div class="top">
-          <h3><img src="img/7.jpg">订单管理系统</h3>
+          <h3><img src="../img/7.jpg">订单管理系统</h3>
         </div>
 
         <div class="menu">

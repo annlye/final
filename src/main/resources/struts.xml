@@ -15,21 +15,21 @@
     </global-results>-->
 
     <action name="readod" class="ly.action.OrderAction" method="readod">
-        <result name="success">/goodOrderList.jsp</result>
-        <result name="error">/indexht.jsp</result>
+        <result name="success">/ly/goodOrderList.jsp</result>
+        <result name="error">/ly/indexht.jsp</result>
     </action>
         <action name="deleteOrder" class="ly.action.OrderAction" method="deleteOrder">
             <result  type="redirectAction" name="success">readod</result>
-            <result name="error">/goodOrderList.jsp</result>
+            <result name="error">/ly/goodOrderList.jsp</result>
         </action>
         <action name="selectLikeOrder" class="ly.action.OrderAction" method="selectLikeOrder">
-            <result  name="success">/goodOrderList.jsp</result>
-            <result name="error">/goodOrderList.jsp</result>
+            <result  name="success">/ly/goodOrderList.jsp</result>
+            <result name="error">/ly/goodOrderList.jsp</result>
         </action>
 
         <action name="selectLikeUser" class="ly.action.UserAction" method="selectLikeUser">
-            <result  name="success">/userOrder.jsp</result>
-            <result name="error">/error.jsp</result>
+            <result  name="success">/ly/userOrder.jsp</result>
+            <result name="error">/ly/error.jsp</result>
         </action>
     </package>
 </struts>

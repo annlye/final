@@ -62,7 +62,7 @@ public class OrderAction extends ActionSupport {
             int pages = dao.findCount();//搜索一共有多少数据
             StringBuffer s=new StringBuffer();
             //System.out.println(pages);
-            for(int i=1;i<=pages/2;i++){
+            for(int i=1;i<=pages%2;i++){
                 if(i==current_page){
                     s.append("["+i+"]");
                 }

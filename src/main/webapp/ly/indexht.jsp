@@ -108,7 +108,7 @@
         }
     </style>
 
-    <script src="js/ajax.js"></script>
+    <script src="../js/ajax.js"></script>
 
     <script>
         $(function() {
@@ -123,20 +123,20 @@
 <body>
 
 <div id="header">
-    <h3><img src="img/7.jpg">订单管理后台</h3>
+    <h3><img src="../img/7.jpg">订单管理后台</h3>
 </div>
 
 <div id="nav">
-    <h4><img src="img/1.jpg">后台管理</h4>
+    <h4><img src="../img/1.jpg">后台管理</h4>
     <ul>
-        <li><span><img src="img/5.jpg"></span>用户管理</li>
+        <li><span><img src="../img/5.jpg"></span>用户管理</li>
         <li >
-            <span><img src="img/4.jpg"></span>订单管理
+            <span><img src="../img/4.jpg"></span>订单管理
             <div class="content">
                 <p><a href="readod.action?page=<%=1%>" style="color: lightslategray" style="font-weight:bold" >所有订单</a></p>
             </div>
         </li>
-        <li><span ><img src="img/4.jpg"></span>商品管理</li>
+        <li><span ><img src="../img/4.jpg"></span>商品管理</li>
     </ul>
 </div>
 
